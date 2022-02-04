@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro&display=swap');
+
+body {
+    overflow-x: hidden;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .text-orange {
+    color: #F78806 !important;
+}
+
+.text-blue {
+    color: #17AACF;
+}
+
+.font-maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.vin {
+    max-width: 50% !important;
+}
+
+.mx-10 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.px-10 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+button {
+    background-color: white !important;
+    outline: none !important;
+}
+
+.bg-orange {
+    background-color: #F78806;
+}
+
+@media screen and (max-width: 1320px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+    /* hiding the br tags in footer Twitter section */
+    .hide {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mx-10 {
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    .px-10 {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .vin {
+        max-width: 30% !important;
+    }
+    .mx-10 {
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .flckr {
+        width: 230%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vin {
+        max-width: 50% !important;
+    }
+    .get {
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .heading {
+        font-size: 1rem;
+    }
+}
